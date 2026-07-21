@@ -1,5 +1,5 @@
 {
-  "name": "@HMDSALIH/is-nonempty",
+  "name": "@hmdsalih/is-nonempty",
   "version": "0.1.0",
   "description": "A tiny zero-dependency utility to safely check if a value is non-empty",
   "type": "module",

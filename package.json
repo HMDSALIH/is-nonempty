@@ -1,0 +1,35 @@
+{
+  "name": "@HMDSALIH/is-nonempty",
+  "version": "0.1.0",
+  "description": "A tiny zero-dependency utility to safely check if a value is non-empty",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HMDSALIH/is-nonempty.git"
+  },
+  "keywords": [
+    "empty",
+    "non-empty",
+    "utility",
+    "typescript",
+    "validation"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc"
+  }
+}
